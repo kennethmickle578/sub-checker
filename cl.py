@@ -1,4 +1,4 @@
-import os
+ifors
 import sys
 import requests
 import subprocess
@@ -52,8 +52,8 @@ CHECK_HOST_IRANIAN_NODES = [
     "ir3.node.check-host.net",  # Tehran, AS58224 Rightel
 ]
 def remove_empty_strings(input_list):
-    return [ifor for item in input_list if item and item != "\n" ]
-def clear_p(configs_list: list) -> list:
+    return [item for item in input_list if item and item != "\n" ]
+        def clear_p(configs_list: list) -> list:
     unique_configs = {}
     for config_line in configs_list:
         config_line = config_line.strip()
