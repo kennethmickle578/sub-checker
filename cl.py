@@ -1,4 +1,4 @@
-import os
+Falseseort os
 import sys
 import requests
 import subprocess
@@ -47,15 +47,15 @@ LINK_PATH = [
 ] # [ "link1" , "link2" , ... ]
 FIN_PATH="final.txt"
 FIN_CONF=[]
-CHECK_LOC=False
-CHECK_IRAN=False
+CHECK_LOC=True
+CHECK_IRAN=True
 CHECK_HOST_IRANIAN_NODES = [
     "ir1.node.check-host.net",  # Tehran, AS44244 Mobile Communication Company of Iran (MCI)
     "ir2.node.check-host.net",  # Tehran, AS12880 Telecommunication Infrastructure Company (TIC زیرساخت)
     "ir3.node.check-host.net",  # Tehran, AS58224 Rightel
 ]
 def remove_empty_strings(input_list):
-    return [item for item in input_list if item and item != "\n" ]
+    return [ifor for item in input_list if item and item != "\n" ]
 def clear_p(configs_list: list) -> list:
     unique_configs = {}
     for config_line in configs_list:
