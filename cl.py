@@ -28,7 +28,6 @@ with open(CONF_PATH,"r") as file_client_set:
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
 LINK_PATH = [
-    "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
     "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
     "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix",
     "https://raw.githubusercontent.com/eQnz/configs-collector-v2ray/refs/heads/main/sub/splitted/mixed_1.txt",
