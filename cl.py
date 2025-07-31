@@ -27,7 +27,24 @@ with open(CONF_PATH,"r") as file_client_set:
         f=json.load(file_client_set)
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
-LINK_PATH=[] # [ "link1" , "link2" , ... ]
+LINK_PATH = [
+    "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+    "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix",
+    "https://raw.githubusercontent.com/eQnz/configs-collector-v2ray/refs/heads/main/sub/splitted/mixed_1.txt",
+    "https://raw.githubusercontent.com/10ium/V2ray-Config/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/10ium/V2rayCollector/main/mixed_iran.txt",
+    "https://raw.githubusercontent.com/10ium/V2rayCollector/main/vless_iran.txt",
+    "https://raw.githubusercontent.com/10ium/V2rayCollector/main/ss_iran.txt",
+    "https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Normal/shadowsocks",
+    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",
+    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/all.txt",
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/ShadowSocks.txt",
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Hysteria2.txt",
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Trojan.txt",
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/WireGuard.txt",
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Vless.txt"
+] # [ "link1" , "link2" , ... ]
 FIN_PATH="final.txt"
 FIN_CONF=[]
 CHECK_LOC=False
